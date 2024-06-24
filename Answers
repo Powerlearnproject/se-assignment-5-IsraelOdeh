@@ -1,0 +1,85 @@
+
+Installation of VS Code:
+
+Describe the steps to download and install Visual Studio Code on Windows 11 operating system. Include any prerequisites that might be needed.
+    The download and install Visual Studio Code on my computer is done using the following steps:
+        -The installer application is downloadedc from the official website: https://code.visualstudio.com/Download
+        - After the download is complete the installer is run and the Installation steps are followed.
+        - A desktop shortcut is created and the visual studio code can be run by clicking it.
+
+First-time Setup:
+
+After installing VS Code, what initial configurations and settings should be adjusted for an optimal coding environment? Mention any important settings or extensions.
+    After installation,the initial configurations i carried out are:
+        - Choosing a color theme
+        - Install language extensions
+        - Turned on auto save
+    While there are hundreds of extensio9ns available on vs code marketplace the ones i believe would be necessary to pursue this training are:
+        -Python
+        - C/C++
+
+User Interface Overview:
+
+Explain the main components of the VS Code user interface. Identify and describe the purpose of the Activity Bar, Side Bar, Editor Group, and Status Bar.
+    Activity bar:This is located on the left-hand side. It allows us to switch between views such as explorer,search,run and debug,marketplace,and github.
+    Side bar: This displays the contents of the mode choosen on the activity bar.
+    Editor Group: This is the part of the application where our codes are written and edited.
+    Status Bar: This gives us information about the project currently being worked on.
+
+Command Palette:
+
+What is the Command Palette in VS Code, and how can it be accessed? Provide examples of common tasks that can be performed using the Command Palette.
+    The command palette provides access to many predefined commands that carry out various functions across the vs code application.Command  palette is accessible from the keyboard key combinatiion is Ctrl+Shift+P.
+    Example of a common commands in the command palette are:
+        - Clear console
+        -Add cursor above
+        - Add cusor below
+
+Extensions in VS Code:
+
+Discuss the role of extensions in VS Code. How can users find, install, and manage extensions? Provide examples of essential extensions for web development.
+    Extensions are third part programs that modifies the visual studio code  making it more suitable for different forms of programming it enables us add languages, debuggers, and tools to your installation to support your development workflow. 
+    Essential extensions for web development includes:
+        - LIve server
+        - Prettier code formatter
+        - HTML CSS support
+
+
+Integrated Terminal:
+
+Describe how to open and use the integrated terminal in VS Code. What are the advantages of using the integrated terminal compared to an external terminal?
+    The integrated terminal can be opened using the keyboard combination of Ctrl + ` .It opens a terminal at the root of our workspace.
+    Using the integrated terminal makes programming more convenient by combining various activities in one place,it also has integration with the editor to support features like error handlling.
+
+File and Folder Management:
+
+Explain how to create, open, and manage files and folders in VS Code. How can users navigate between different files and directories efficiently?
+    Files and folder managements are carried out in the explorer section of the side bar.Files and folders can be created, opened and managed here.Navigation between different files and directories can also be carried out efficiently here.
+
+
+Settings and Preferences:
+
+Where can users find and customize settings in VS Code? Provide examples of how to change the theme, font size, and keybindings.
+    Settings can be found at the bottom of the activity bar in the icon labelled Manage or using the keyboard shortcut Ctrl+, .
+   Color theme can be changed clicking on the manage icon and openin themes,desired theme can then be choosen.
+   Font size can be changed in the settings tab, Text Editor>Font>Font size.
+   Keybindings can be opened by going to the menu under File > Preferences > Keyboard Shortcuts
+
+
+Debugging in VS Code:
+
+Outline the steps to set up and start debugging a simple program in VS Code. What are some key debugging features available in VS Code?
+    After writing and saving a program, this program can be debugged by going to the run and debug view on the activity bar,clicking on run and debug should begin the debugging process.
+    VS Code has built-in debugging support for the Node.js runtime and can debug JavaScript, TypeScript, or any other language that gets transpiled to JavaScript.
+
+Using Source Control:
+
+How can users integrate Git with VS Code for version control? Describe the process of initializing a repository, making commits, and pushing changes to GitHub.
+ To initialize a new local Git repository:
+    -Pick an existing or new folder on your computer and open it in VS Code.
+    -In the Source Control view, select the Initialize Repository button.
+    -This creates a new Git repository in the current folder, allowing you to start tracking code changes.
+To make commits and pushing to:
+    -Open the sourcce control view on the activity bar
+    - On the side bar changes to the project are dispalyed, and a commit icon is present.
+    - Clicking on this icon will commit and push the changes made to github.
